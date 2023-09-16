@@ -10,7 +10,7 @@ body{
 /*Barra de navegación*/
 
 #barraNav{
-    height: 15vh;
+    height: 10em;
 
     background-color: #E32E37;
 
@@ -36,38 +36,7 @@ body{
 /*Cabecera del indice*/
 
 #cabecera{
-    height: 85vh;
-
-    background-color: aqua;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#textoCabecera{
-    height: 20em;
-    width: 20em;
-
-    background-color: coral;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#benvenuti{
-    background-color: beige;
-
-    height: 6em;
-}
-
-#cabeceraMenu{
-    background-color: brown;
-
-    height: 4em;
-    width: 12em;
+    background-image: url(../img/wine.jpg);
 }
 
 /*Información del restaurante en la página del indice*/
@@ -99,5 +68,49 @@ body{
 #pie{
     height: 16em;
 
-    background-color: blueviolet;
+    background-color: #E32E37;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#topPie{
+    width: 50em;
+    height: 8em;
+
+    background-color: #E32E37;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color:#F7F7F7;
+}
+
+#datos{
+    width: 20em;
+    height: 8em;
+
+    background-color: #E32E37;
+}
+
+#horario{
+    width: 20em;
+    height: 8em;
+    background-color: #E32E37;
+
+    text-align: right;
+}
+
+.textPieTitulo{
+    margin: 1em;
+
+    text-decoration: underline;
+
+    font-size: 1.20em;
+}
+
+.textPie{
+    margin: 1em;
 }
