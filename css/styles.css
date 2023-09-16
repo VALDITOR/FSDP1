@@ -1,45 +1,42 @@
 body{
     height: 100vh;
-    width: 100vw;
+    width: 99.1vw;
 
     margin: 0em;
     padding: 0em;
 
-    
-    
 }
 
 /*Barra de navegación*/
 
 #barraNav{
-    height: 10vh;
+    height: 15vh;
 
-    background-color: red;
+    background-color: #E32E37;
 
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-#logoRes{
-    height: 2em;
-    width: 2em;
-
-    background-color: black;
 
 }
 
-#seleccionNav{
-    height: 4em;
-    width: 4em;
-
-    background-color: palegreen;
+.container-fluid{
+    font-style: italic;
 }
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+#logo img{
+    width: 6em;
+}
+
 
 /*Cabecera del indice*/
 
 #cabecera{
-    height: 90vh;
+    height: 85vh;
 
     background-color: aqua;
 
@@ -87,14 +84,14 @@ body{
     background-color: coral;
 
     height: 64em;
-    width: 55em;
+    width: 100vw;
 }
 
 #infoRes{
     background-color: rgb(145, 15, 23);
 
     height: 64em;
-    width: 55em;
+    width: 100vw;
 }
 
 /*Pie de página*/
