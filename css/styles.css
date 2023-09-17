@@ -32,6 +32,20 @@ body{
     width: 10em;
 }
 
+.abajo{
+    height: 15em;
+
+}
+
+.pie{
+    background-color: rgb(205, 33, 42);
+
+    height: 8.2em;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .izqDivS{
     width: 5em;
 }
@@ -40,8 +54,17 @@ body{
     width: 5em;
 }
 
-.video{
-    display: flex;
+.tituloCon{
+    display: grid;
     justify-content: center;
-    align-items: center;
+    text-decoration: underline;
+}
+
+.espacioCon{
+    height: 3em;
+}
+
+.botonCon{
+    display: grid;
+    justify-content: center;
 }
