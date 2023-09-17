@@ -18,20 +18,18 @@
   <div class="container-fluid">
 
       <div class="row h-50">
-          <div class="col-6">
-              <nav class="navbar bg-body-tertiary">
-                  <div class="container">
-                    <a class="navbar-brand" href="#">
-                      <img src="img/firenze.png" alt="Bootstrap" width="30" height="24">
-                    </a>
-                  </div>
-                </nav>
-          </div>
+          <div class="col-12">
+              
+          
+            <nav class="navbar ">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                  <img src="img/firenze.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                  RISTORANTI FIRENZE
+                </a>
 
-          <div class="col-6">
-              <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <nav class="navbar navbar-expand-lg ">
                   <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
@@ -50,61 +48,98 @@
                     </div>
                   </div>
                 </nav>
+
+              </div>
+            </nav>
           </div>
       </div>
   </div>
 </div>
     
+<!--Div parte superior-->
+    
+<div class="topDiv"></div>
+
 <!--Cabecera del indice-->
 
-    <div id="carruselRes">
+
+
+    <div id="carruselRes" class="alinear">
+
+      <!--Div parte izquierda-->
+<div class="izqDiv"></div>
 
       <div class="container-fluid">
         <div class="row h-50">
-          <div class="col-12">texto</div>
+          <div class="col-12">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/wine.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="..." class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
+      <!--Div parte Derecha-->
+
+    <div class="derDiv"></div>
+
     </div>
+
+    
 
 <!--Información del restaurante video y texto-->
 
-    <div id="infoRes">
+    <div id="infoRes" class="alinear">
+
+      <!--Div parte izquierda-->
+<div class="izqDivS"></div>
 
       <div class="container-fluid">
         <div class="row h-50">
-          <div class="col-6">texto</div>
-          <div class="col-6">texto</div>
+          <div class="col-6">
+            <p class="fs-3">¿Quines somos?</p>
+            <img src="img/chef.png" class="img-fluid" alt="...">
+            <p class="fs-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates eius illum alias, hic aspernatur laborum neque? Reiciendis earum quod quam hic nostrum a! Veniam repellendus delectus obcaecati, adipisci consequatur porro! Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi atque asperiores impedit molestias maiores, ea dolor, ullam quibusdam culpa fuga minima animi laborum maxime labore debitis, inventore nihil! Ipsum, consectetur.</p>
+          </div>
+          <div class="col-6" class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/WdWEMXnHBVI?si=YjLT2bnoFFJY-hNF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
 
+      <!--Div parte Derecha-->
+
+    <div class="derDivS"></div>
+
     </div>
 
-<!--Pie de página-->
+    
 
-<div id="pie">
+    </div>
 
-  <div class="container-fluid">
-      <div class="row h-50">
-          <div class="col-6">
-              <div class="row h-50">
-               <div class="col-12">texto</div>
-                  <div class="col-12">texto</div>
-               <div class="col-12">texto</div>
-            </div>
-       </div>
-
-       <div class="col-6">
-           <div class="row h-50">
-               <div class="col-12">texto</div>
-               <div class="col-12">texto</div>
-               <div class="col-12">texto</div>
-           </div>
-          </div>
-      </div>
-  </div>
-
-</div>
 
     
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

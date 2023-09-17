@@ -11,25 +11,24 @@
 </head>
 <body>
 
-    <!--Barra De Navegación-->
+    <!--Barra de navegación-->
+
     <div id="barraNav">
         <div class="container-fluid">
-
-            <div class="row h-50">
-                <div class="col-6">
-                    <nav class="navbar bg-body-tertiary">
-                        <div class="container">
-                          <a class="navbar-brand" href="#">
-                            <img src="../img/firenze.png" alt="Bootstrap" width="30" height="24">
-                          </a>
-                        </div>
-                      </nav>
-                </div>
-
-                <div class="col-6">
-                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      
+            <div class="row h-50" >
+                <div class="col-12">
+                    
+                
+                  <nav class="navbar">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="../img/firenze.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                        RISTORANTI FIRENZE
+                      </a>
+      
+                      <nav class="navbar navbar-expand-lg">
                         <div class="container-fluid">
-                          <a class="navbar-brand" href="#">Navbar</a>
                           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                           </button>
@@ -48,43 +47,49 @@
                           </div>
                         </div>
                       </nav>
+      
+                    </div>
+                  </nav>
                 </div>
             </div>
         </div>
-    </div>
+      </div>
+
+    <!--Div parte superior-->
+    
+    <div class="topDiv"></div>
 
     <!--Formulario de contacto-->
-    <div id="formulario">
+    <div id="formulario" class="alinear">
+
+        <!--Div parte izquierda-->
+        <div class="izqDiv"></div>
+
         <div class="container-fluid">
             <div class="row h-50">
-                <div class="col-12">SOLICUTUD DE CONTACTO</div>
+                <div class="col-12"><h3>SOLICUTUD DE CONTACTO</h3></div>
             </div>
             <div class="row h-50">
                 <div class="col-6">NOMBRE
-                    <input class="form-control" type="text" placeholder="Default input" aria-label="default input example">
+                    <input class="form-control" type="text" placeholder="Nombre" aria-label="default input example">
                 </div>
                 <div class="col-6">APELLIDOS
-                    <input class="form-control" type="text" placeholder="Default input" aria-label="default input example">
+                    <input class="form-control" type="text" placeholder="Apellidos" aria-label="default input example">
                 </div>
             </div>
             <div class="row h-50">
                 <div class="col-12">DIRECCIÓN
-                    <input class="form-control" type="text" placeholder="Default input" aria-label="default input example">
+                    <input class="form-control" type="text" placeholder="Dirección" aria-label="default input example">
                 </div>
             </div>
             <div class="row h-50">
-                <div class="col-4">CODIGO POSTAL
-                    <input class="form-control" type="text" placeholder="Default input" aria-label="default input example">
-                    
-                    </div>
 
-                <div class="col-4">TELEFONO
-                    <input class="form-control" type="text" placeholder="Default input" aria-label="default input example">
+                <div class="col-6">TELEFONO
+                    <input class="form-control" type="text" placeholder="Telefono" aria-label="default input example">
                 </div>
-                <div class="col-4">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">CORREO ELECTRONICO</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo@email.com">
+                <div class="col-6">
+                    <div class="mb-3">EMAIL
+                        <input class="form-control" type="email" placeholder="ejemplo@email.com" aria-label="default input example">
                       </div>
                    
                 </div>
@@ -105,32 +110,9 @@
             </div>
 
         </div>
-    </div>
+        <!--Div parte Derecha-->
 
-    <!--Pie De Página-->
-
-
-    <div id="pie">
-
-        <div class="container-fluid">
-            <div class="row h-50">
-                <div class="col-6">
-                    <div class="row h-50">
-                     <div class="col-12">texto</div>
-                        <div class="col-12">texto</div>
-                     <div class="col-12">texto</div>
-                  </div>
-             </div>
-
-             <div class="col-6">
-                 <div class="row h-50">
-                     <div class="col-12">texto</div>
-                     <div class="col-12">texto</div>
-                     <div class="col-12">texto</div>
-                 </div>
-                </div>
-            </div>
-        </div>
+    <div class="derDiv"></div>
 
     </div>
 
