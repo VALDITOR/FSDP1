@@ -89,22 +89,11 @@ body{
     text-decoration: underline;
 }
 
-.pinoImg{
-    display: flex;
-    justify-content: center;
-}
-
-.pino{
-    display: flex;
-    justify-content: center;
-
-    height: 20em;
-    width: 20em;
-}
-
 .comida{
 
     display: grid;
     justify-content:center;
+
+    text-align: center;
     
 }
