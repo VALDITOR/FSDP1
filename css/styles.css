@@ -6,6 +6,8 @@ body{
     padding: 0em;
 
     background-color: rgb(244, 245, 240);
+
+    overflow-x: hidden;
 }
 
 #barraNav{
@@ -37,9 +39,15 @@ body{
 }
 
 .abajo{
+    height: 5em;
+
+}
+
+.abajoCon{
     height: 15em;
 
 }
+
 
 .pie{
     background-color: rgb(205, 33, 42);
@@ -50,6 +58,7 @@ body{
     display: flex;
     justify-content: space-evenly;
 }
+
 
 .izqDivS{
     width: 5em;
@@ -72,4 +81,30 @@ body{
 .botonCon{
     display: grid;
     justify-content: center;
+}
+
+.textoCab{
+    text-align: center;
+    margin-bottom: 2em;
+    text-decoration: underline;
+}
+
+.pinoImg{
+    display: flex;
+    justify-content: center;
+}
+
+.pino{
+    display: flex;
+    justify-content: center;
+
+    height: 20em;
+    width: 20em;
+}
+
+.comida{
+
+    display: grid;
+    justify-content:center;
+    
 }
