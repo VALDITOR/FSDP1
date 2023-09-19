@@ -1,4 +1,4 @@
-# GeeksHubs Projecto 1
+# GeeksHubs Proyecto 1
 ## Página Web Negocio De Restauración
 ### Descripción
  - Página web sobre un restaurante italiano que cuenta con un indice, un formulario y un menú.
